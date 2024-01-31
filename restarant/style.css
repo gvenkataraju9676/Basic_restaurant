@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    margin:10px;
+    text-align: center;
+    background-image: url('rest.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    border: 2px solid darkorange;
+    border-radius: 2rem;
+    margin: 0 auto 2rem;
+    max-width: 600px;
+    font-size: 2rem; 
+    line-height: 7rem;
+
+}
+ul {
+       list-style-type: none;
+}
+li{
+    border: 2px solid lightgray;
+   
+}
+li a{
+   text-decoration: none;
+   color: #333;
+   cursor: pointer;
+ display: block;  
+ background-color: white;
+}
+li a:hover,
+li a:focus
+{
+    color: darkgoldenrod;
+    background: lightgreen;
+}
+h1{
+    color: red;
+    background-color: yellow;
+    padding: 1rem;
+    border-radius: 2rem 2rem 0 0;
+    
+}
